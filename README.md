@@ -39,6 +39,19 @@ php artisan key:generate
 php artisan migrate --seed
 npm install && npm run dev
 php artisan serve
+
+---
+
+## 🧩 Importer la base de données
+
+1. Ouvrir **phpMyAdmin**
+2. Créer une base de données nommée `gestion_notes`
+3. Aller dans l’onglet **"Importer"**
+4. Sélectionner le fichier : `database_dump/gestion_notes.sql`
+5. Cliquer sur **"Exécuter"** pour lancer l'import
+
+✅ La base sera prête pour utiliser l’application Laravel avec les données.
+
 ## 📬 Contact
 
 Développé par **Salma Nechda**  
